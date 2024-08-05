@@ -8,13 +8,13 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 2rem;
 }
 
-/* Booking Section Styles */
-section.booking {
+/* Sign-In Section Styles */
+section.sign-in {
     background-color: #ffffff;
     padding: 2rem;
     border-radius: 8px;
@@ -22,7 +22,7 @@ section.booking {
     margin: 2rem auto;
 }
 
-section.booking h1 {
+section.sign-in h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
     color: #333;
@@ -45,18 +45,12 @@ form {
     color: #333;
 }
 
-.form-group input,
-.form-group select,
-.form-group textarea {
+.form-group input {
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 1rem;
-}
-
-.form-group textarea {
-    resize: vertical;
 }
 
 .submit-btn {
@@ -68,8 +62,25 @@ form {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-top: 1rem;
 }
 
 .submit-btn:hover {
     background-color: #1d4ed8; /* Darker blue */
+}
+
+.links {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.875rem;
+    margin: 0 0.5rem;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
